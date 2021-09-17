@@ -1,0 +1,14 @@
+.video-feed{
+    position: relative;
+}
+.box{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    bottom: 90px;
+    right: 130px;
+    border: 1px solid green;
+}
+.row{
+    margin:0;
+}

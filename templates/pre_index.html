@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Live Streaming Demonstration</title>
+</head>
+<body style="background-color: #000;color:white">
+  <style>
+    .row{
+      margin:0;
+    }
+  </style>
+<div class="full-container">
+  <div class="row align-items-center">
+    <div class="col-4 text-left">
+      <h3>UCS757 Buliding Innovative Systems</h3>
+    </div>
+    <div class="col-4 text-center">
+      <img src="static/Logo.png" alt="Sign Language Interpreter" width="300px">
+    </div>
+    <div class="col-4 text-right">
+      <h3>© Purnima Lal | 101803523</h3>
+    </div>
+  </div>
+
+  <!--  -->
+  <div class="row align-items-start mt-5">
+    <div class="col-8 text-left">
+      <div class="mb-5">
+        <div class="btn btn-primary" >
+          <a style="color:white" href="{{ url_for('index') }}">Recognize Hand</a>
+        </div>
+        <!-- <div style="height:150px"></div> -->
+        <div class="btn btn-primary ml-3" >
+          <a style="color:white" href="{{ url_for('convert') }}">Start Interpreter</a>
+        </div>
+      </div>
+      The Decoder, A UCS757 Project - Sign Language to Text Convertor
+      <br>
+      <br>
+      Follow these instructions-
+      <br>
+      Step 1 - Click on the <b>'Recognize Hand'</b> button to set you hand histogram & follow the instructions below:
+      <br>
+      <ul>
+        <li>After clicking the button, a window on the right "Set hand histogram" will appear.</li> 
+        <li>"Set hand histogram" will have 1 green square.</li>
+        <li>Place your hand in that square. Make sure your hand covers the entire square. Hold your hand in that position.</li> 
+        <li>After 5 seconds, another window "Thresh" will appear where only white patches corresponding to the parts of the image which has your skin color should appear.</li> 
+        <li>Make sure the square is covered by your hand.</li> 
+        <li>In case you are not successful then move your hand a little bit again or reload the page. </li> 
+        <li>Repeat this until you get a good histogram.</li> 
+        <li>You will have <b>10 seconds</b> to get a good thresh. After which you move on to <b>Step 2</b>.</li> 
+      </ul>
+
+      Step 2 - A new page will open after Thresh has been set. You can use your hand to make the Sign Language gestures and the corresponding converted text will be displayed. 
+      <br>
+      <i>Use the gestures provided in the image below</i>
+      <br>
+      <i>Note: You do not need set your hand histogram again if you have already done it. But you do need to do it if the lighting conditions change.</i>
+      <br>
+      <br>
+      If you have already set your hand, directly click on the <b>'Start Interpreter'</b> button to start Sign Language Conversion.
+      <br>
+      It is strongly advised to set your hand histogram first for accurate results.
+      
+    </div>
+    <div class="col-4 text-right" style="padding-right:50px">
+      <img src="static/ASL.jpg" alt="">
+    </div>
+
+    <!-- <div class="col-12 text-center">
+      <div class="btn btn-primary" >
+        <a style="color:white" href="{{index}}">Recognize Hand</a>
+      </div>
+      <div class="btn btn-primary" >
+        <a style="color:white" href="{{convert}}">Start Interpreter</a>
+      </div>
+    </div> -->
+    <!-- <div class="col-4 text-right">
+      <div style="margin-right:50px">
+        <img src="static/ASL.jpg" alt="">
+      </div>
+    </div> -->
+  </div>
+  <!--  -->
+
+  <div class="mt-5">
+    <h2 class="text-center">Sample <a href="">(Github)</h2>
+    <img src="" alt="">
+  </div>
+
+</div>
+</body>
+</html>

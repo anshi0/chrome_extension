@@ -1,0 +1,10 @@
+body{
+    background-color: #000;
+}
+.row{
+    margin: 0;
+}
+.frame{
+    border: 1px solid #00837F;
+    height: 100%;
+}
