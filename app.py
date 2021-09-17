@@ -33,7 +33,10 @@ def file_exists(filename):
 
 
 def gen_frames(folder):  # generate frame by frame from camera
-    camera = cv2.VideoCapture(0)
+    cam = cv2.VideoCapture(-1)
+    # if cam.read()[0]==False:
+    #     cam = cv2.VideoCapture(0)
+    
     i=0
     # delete files from directory
     # old_frames = os.listdir(cwd + f'/{folder}')
