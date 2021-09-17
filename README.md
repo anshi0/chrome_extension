@@ -14,7 +14,7 @@ A Flask web application, using CNN to interpret Sign Language using real time we
 
 1. I created 44 gesture samples using OpenCV. For each gesture I captured 1200 images which were 50x50 pixels. All theses images are in grayscale stored in the gestures/ folder. The pictures were flipped using flip_images.py. This script flips every image along the vertical axis. Hence each gesture has 2400 images.
 
-2. Learned what a CNN is and how it works. Created a CNN Model.
+2. Learnt what a CNN is and how it works. Created a CNN Model.
 
 3. Trained that model using Keras. Tested it out on a live video stream.
 
@@ -83,7 +83,7 @@ If you have already set your hand, directly click on the <b>'Start Interpreter'<
 
 It is strongly advised to set your hand histogram first for accurate results.
 
-## Running Raw Code via CLI - 
+### Running Raw Code via CLI - 
 
   1. First set your hand histogram. You do not need to do it again if you have already done it. But you do need to do it if the lighting conditions change. To do so type the command given below and follow the instructions below.
     
