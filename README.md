@@ -75,6 +75,7 @@ Step 1 - Click on the <b>'Recognize Hand'</b> button to set you hand histogram &
 Step 2 - A new page will open after Thresh has been set. You can use your hand to make the Sign Language gestures and the corresponding converted text will be displayed. 
 
 Use the gestures provided in the image below - 
+
 ![Example screenshot](./static/ASL.jpg)
 
 Note: You do not need set your hand histogram again if you have already done it. But you do need to do it if the lighting conditions change.
@@ -87,7 +88,7 @@ It is strongly advised to set your hand histogram first for accurate results.
 
   1. First set your hand histogram. You do not need to do it again if you have already done it. But you do need to do it if the lighting conditions change. To do so type the command given below and follow the instructions below.
     
-    `python set_hand_hist.py`
+    python set_hand_hist.py
     
   * A windows "Set hand histogram" will appear.
   * "Set hand histogram" will have 50 squares (5x10).
@@ -100,34 +101,32 @@ It is strongly advised to set your hand histogram first for accurate results.
   
   2. I already have added 44 (0-43) gestures. It is on you if you want to add even more gestures or replace my gestures. Hence this step is <b>OPTIONAL</b>. To create your own gestures or replace my gestures run the following command and pressing 'c' once your hand gesture is ready- 
      
-    `python create_gestures.py`  
+    python create_gestures.py  
 
   After capturing all the gestures you can flip the images using
 
-    `python flip_images.py`  
+    python flip_images.py  
 
   4. When you are done adding new gestures run `load_images.py` to split all the captured gestures into training, validation and test set. You do not need to run this file again until and unless you add a new gesture.
     
-    `python load_images.py`
+    python load_images.py
 
   5. To see all the gestures that are stored in 'gestures/' folder run this command
     
-    `python display_all_gestures.py`
+    python display_all_gestures.py
 
   6. Training the model - To train using Keras by running the `cnn_keras.py` file.
   You do not need to retrain your model every time. In case you add or remove a gesture,then you need to retrain it.
 
-  7. Testing the model - For Sign Language recognition start the `recognize_gesture.py` file.
+  7. Testing the model - For Sign Language recognition start the `recognize_gesture.py` file.You will have a small green box inside which you need to do your gestures.
 
-    `python recognize_gesture.py`
+    python recognize_gesture.py
     
-    You will have a small green box inside which you need to do your gestures.
-
   8. Using the Sign language interpreter - 
   
-    `python fun_util.py`
+    python fun_util.py
 
-    This will open up the gesture recognition window which will use your webcam to interpret the trained Sign Language gestures. Your hand gestures will be converted to text as shown in the Demo above.
+This will open up the gesture recognition window which will use your webcam to interpret the trained Sign Language gestures. Your hand gestures will be converted to text as shown in the Demo above.
 
 ## Status    
-Project Status: _completed_ 
+Project Status: Completed 
