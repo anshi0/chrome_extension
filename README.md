@@ -9,7 +9,6 @@ A Flask web application, using CNN to interpret Sign Language using real time we
 * [Setup](#setup)
 * [How to Use this Repo](#how-to-use-this-repo)
 * [Status](#status)
-* [Contact](#contact)
 
 ## Behind the Project
 
@@ -45,7 +44,7 @@ The methodology flow chart -
 * Use the command prompt to setup a virtual environment.
 * Install all dependencies and requirements using the following command - 
 
-`pyton -m pip r requirements.txt`
+`python -m pip r requirements.txt`
 
 This will install all libraries required for the project.
 
