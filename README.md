@@ -5,7 +5,7 @@ Web Application developed using Flask.
 
 ## Table of contents
 * [Behind the Project](#Behind-the-Project)
-* [I/O Screenshots](#Input/Output-Screenshots)
+* [I/O Screenshots](#inputoutput-screenshots)
 * [Tools & Technologies Used](#technologies-and-tools)
 * [Setup](#setup)
 * [How to Use this Repo](#how-to-use-this-repo)
