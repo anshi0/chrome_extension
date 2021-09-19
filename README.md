@@ -24,7 +24,7 @@ The 44 gestures including 26 alphabets, 10 numbers & some other gestures are sav
 This is a basic overview. 
 
 The methodology flow chart - 
-![Example screenshot](./static/Methodology-FlowChart.png)
+![Example screenshot](./static/Methodology_FlowChart.png)
 
 ## Input/Output Screenshots
 ![Example screenshot](./static/I-O.gif)
