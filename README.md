@@ -1,10 +1,11 @@
 # UCS757 Project - The Sign Language Decoder using Deep Learning
 
-A Flask web application, using CNN to interpret Sign Language using real time webcam feed.
+Using CNN to interpret Sign Language using real time webcam feed.
+Web Application developed using Flask.
 
 ## Table of contents
 * [Behind the Project](#Behind-the-Project)
-* [Demo | I/O](#demo)
+* [Demo | I/O](#Input/Output-Screenshots)
 * [Tools & Technologies Used](#technologies-and-tools)
 * [Setup](#setup)
 * [How to Use this Repo](#how-to-use-this-repo)
@@ -23,14 +24,10 @@ The 44 gestures including 26 alphabets, 10 numbers & some other gestures are sav
 This is a basic overview. 
 
 The methodology flow chart - 
-![Example screenshot]()
+![Example screenshot](./static/Methodology-FlowChart.png)
 
-## Demo
-![Example screenshot]()
-
-![Example screenshot]()
-
-![Example screenshot]()
+## Input/Output Screenshots
+![Example screenshot](./static/I-O.gif)
 
 ## Technologies and Tools
 * Python 3.x 

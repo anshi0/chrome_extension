@@ -33,11 +33,11 @@ def file_exists(filename):
 
 
 def gen_frames(folder):  # generate frame by frame from camera
-    for i in range(-3,5):
-        camera = cv2.VideoCapture(i)
-        if camera.read()[0]==True:
-            # camera = cv2.VideoCapture(0)
-            break
+    camera = cv2.VideoCapture(0)
+    # if camera.read()[0]==False:
+    #     camera = cv2.VideoCapture(0)
+    # if camera.read()[0]==False:
+    #     camera = cv2.VideoCapture(-1)
     
     i=0
     # delete files from directory
@@ -182,4 +182,5 @@ def proj():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port = int(os.getenv('PORT')))
+    #app.run(debug=True, port = int(os.getenv('PORT')))
     #app.run(debug=False)
