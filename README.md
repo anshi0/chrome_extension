@@ -29,8 +29,7 @@ The methodology flow chart -
 ## Input/Output Screenshots
 ![Example screenshot](./static/I-O.gif)
 
-Prediction Accuracy of 0.9992
-The confusion matrix - 
+Prediction Accuracy of 0.9992. The confusion matrix - 
 ![Example screenshot](./static/confusion_matrix.png)
 
 ## Technologies and Tools
