@@ -44,7 +44,7 @@ Prediction Accuracy of 0.9992. The confusion matrix -
 * Use the command prompt to setup a virtual environment.
 * Install all dependencies and requirements using the following command - 
 
-`python -m pip r requirements.txt`
+`python -m pip install -r requirements.txt`
 
 This will install all libraries required for the project.
 
