@@ -1,4 +1,4 @@
-# UCS757 Project - The Sign Language Decoder using Deep Learning
+# The Sign Language Decoder using Deep Learning
 
 Built CNN model to interpret Sign Language using real time webcam feed.
 Web Application developed using Flask.
