@@ -27,7 +27,7 @@ The methodology flow chart -
 ![Example screenshot](./static/Methodology_FlowChart.png)
 
 ## Input/Output Screenshots
-![Example screenshot](./static/I-O.gif)
+![Example screenshot](./static/io.gif)
 
 Prediction Accuracy of 0.9992. The confusion matrix - 
 ![Example screenshot](./static/confusion_matrix.png)
