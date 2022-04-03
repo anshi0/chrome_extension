@@ -53,7 +53,7 @@ This will install all libraries required for the project.
 ### Run via the Flask App
 * Clone the repo by running - 
 
-    `git clone https://github.com/purnima99/UCS757_SLI.git`
+    `git clone https://github.com/purnima99/SignLanguageDecoder.git`
 
 * Run the app.py file - 
     
